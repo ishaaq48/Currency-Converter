@@ -39,6 +39,11 @@ form input
     margin-bottom: 2rem;
     
 }
+
+form input:invalid
+{
+    border: 2px solid red;
+}
 .dropdown
 {
     display: flex;
